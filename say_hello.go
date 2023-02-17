@@ -1,5 +1,5 @@
 package go_mod_test
 
-func SayHello() string {
-	return "Hello V2"
+func SayHello(name string) string {
+	return "Hello " + name
 }
